@@ -5,9 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="AbstractFactory\v2\" />
-    <Folder Include="AbstractFactory\v1\" />
-  </ItemGroup>
-
 </Project>
