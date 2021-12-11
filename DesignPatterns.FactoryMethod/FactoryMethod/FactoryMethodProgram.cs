@@ -13,8 +13,8 @@ namespace DesignPatterns.FactoryMethod
         public static void Run()
         {
             // Parsing V1
-            UserFileParser parserv1 = new UserFileParser();
-            parserv1.getUsers(@"c:/downloads/file.csv");
+            //UserFileParser parserv1 = new UserFileParser();
+            //parserv1.getUsers(@"c:/downloads/file.csv");
 
             //Parsing V2 Applying factory method pattern
             FileParser parser = new XMLFileParser();

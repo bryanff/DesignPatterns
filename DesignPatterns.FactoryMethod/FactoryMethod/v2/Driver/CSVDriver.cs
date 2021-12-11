@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Singleton;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,14 +9,15 @@ namespace DesignPatterns.FactoryMethod.Driver
 {
     class CSVDriver : IDriver
     {
+        private readonly Logger logger = Logger.Instance;
         public void read(string filename)
         {
-            Console.WriteLine("Reading CSV file...");
+            logger.info("Reading CSV file...");
         }
 
         public void write(string filename, string content)
         {
-            Console.WriteLine("Writing csv file...");
+            logger.info("Writing CSV file...");
         }
     }
 }
