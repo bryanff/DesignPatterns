@@ -5,6 +5,7 @@ using DesignPatterns.Builder;
 using DesignPatterns.Composite;
 using DesignPatterns.Decorator;
 using DesignPatterns.FactoryMethod;
+using DesignPatterns.Observer;
 using DesignPatterns.Proxy;
 using DesignPatterns.Strategy;
 using System;
@@ -23,6 +24,7 @@ namespace DesignPatterns
             DecoratorProgram.Run();
             ProxyProgram.Run();
             StrategyProgram.Run();
+            ObserverProgram.Run();
         }
     }
 }
