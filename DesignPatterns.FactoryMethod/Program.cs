@@ -9,6 +9,7 @@ using DesignPatterns.FactoryMethod;
 using DesignPatterns.Observer;
 using DesignPatterns.Proxy;
 using DesignPatterns.Strategy;
+using DesignPatterns.TemplateMethod;
 using System;
 
 namespace DesignPatterns
@@ -26,7 +27,8 @@ namespace DesignPatterns
             //ProxyProgram.Run();
             //StrategyProgram.Run();
             //ObserverProgram.Run();
-            ChainOfResponsabilityProgram.Run();
+            //ChainOfResponsabilityProgram.Run();
+            TemplateMethodProgram.Run();
         }
     }
 }
